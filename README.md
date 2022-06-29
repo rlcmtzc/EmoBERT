@@ -35,7 +35,7 @@ steps: lemmatize_tweets, remove_tweets_with_less_than_two_words
 ```
 Following preprocessing steps are currently supported:  
 | Preprocessing Step |  Description   |
-|:----:| ---- |
+|----| ---- |
 |`remove_stopwords`| Removing all stopwords  |
 |`remove_punctuation`| Romove all punctuation|  
 |`stem_tweets`| Apply stemming to the data  |
