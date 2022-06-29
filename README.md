@@ -33,25 +33,25 @@ test_data = data/emoji_test.pkl # Testdata path, needs to be a pkl file
 # Here you can add all preprocessing steps needed.
 steps: lemmatize_tweets, remove_tweets_with_less_than_two_words
 ```
-Following preprocessing steps are currently supported:  
-`remove_stopwords`: Removing all stopwords
-`remove_punctuation`: Romove all punctuation
-`stem_tweets`: Apply stemming to the data
-`lemmatize_tweets`: Apply lemmatizing to the data
-`replace_at_with_at`: Replace all freestanding `@` with `at` since freestanding `@` are often used instead of `at`
-`remove_extra_whitespace`: All extra whitespaces are removes
-`replace_smileys`: All smiley created with punctuation are replaced by a word representing them.
-`unify_apostrophes`: All apostrophs get unified to the same one.
-`replace_extra_letters`: Some extra unnecessary letters get removed (`Loooooove` -> `Loove`)
-`make_lowercase`: Make everything lowercase. 
-`remove_digits`: Remove all digits
-`remove_urls`: Remove all urls (`http` and `https` urls)
-`remove_non_english_characters`: Remove all non englisch characters.
-`remove_whole_hashtags`: All hashtags are removed (the whole hashtag not only the `#`)
-`remove_only_hashtags`: All hashtags are removed (only the `#`)
-`remove_freestanding_hashtags`: All freestanding hastags are removed (with a whitespace afterwards). This is usefull after removing non english chars since then all non englisch hashtags result in only a `# `.
-`remove_tweets_with_less_than_two_words`: Remove tweets with less then two words.
-`apply_random_oversampling`: Apply some random oversampling (Oversample everything to the sample number of the class with the most samples).
+Following preprocessing steps are currently supported:    
+`remove_stopwords`: Removing all stopwords  
+`remove_punctuation`: Romove all punctuation  
+`stem_tweets`: Apply stemming to the data  
+`lemmatize_tweets`: Apply lemmatizing to the data  
+`replace_at_with_at`: Replace all freestanding `@` with `at` since freestanding `@` are often used instead of `at`  
+`remove_extra_whitespace`: All extra whitespaces are removes  
+`replace_smileys`: All smiley created with punctuation are replaced by a word representing them.  
+`unify_apostrophes`: All apostrophs get unified to the same one.  
+`replace_extra_letters`: Some extra unnecessary letters get removed (`Loooooove` -> `Loove`)  
+`make_lowercase`: Make everything lowercase.   
+`remove_digits`: Remove all digits  
+`remove_urls`: Remove all urls (`http` and `https` urls)  
+`remove_non_english_characters`: Remove all non englisch characters.  
+`remove_whole_hashtags`: All hashtags are removed (the whole hashtag not only the `#`)  
+`remove_only_hashtags`: All hashtags are removed (only the `#`)  
+`remove_freestanding_hashtags`: All freestanding hastags are removed (with a whitespace afterwards). This is usefull after removing non english chars since then all non englisch hashtags result in only a `# `.  
+`remove_tweets_with_less_than_two_words`: Remove tweets with less then two words.  
+`apply_random_oversampling`: Apply some random oversampling (Oversample everything to the sample number of the class with the most samples).  
 
 ## Testing the Model
 To test the model following command needs to be executed:
