@@ -57,7 +57,7 @@ Following preprocessing steps are currently supported:
 To test the model following command needs to be executed:
 `python test_model_roberta.py <path_to_config>`
 Add to the config which model you want to test and the path to the testdata.
-A pretrained model can be downloaded from [here (Drive)](https://drive.google.com/file/d/1OTY7-aLdjoALKfV1xjfsTuIUxAsFEUKB/view?usp=sharing) (Pretrained on the given [dataset](./data) with the given [config file](.config.config))
+A pretrained model can be downloaded from [here (Drive)](https://drive.google.com/file/d/1OTY7-aLdjoALKfV1xjfsTuIUxAsFEUKB/view?usp=sharing) (Pretrained on the given [dataset](./data) with the given [config file](./config.config))
 
 ## Training the Model
 To train (finetune) the model following command needs to be executed:
