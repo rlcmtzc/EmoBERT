@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+transformers
+rich
+typing
+matplotlib
+numpy
+sklearn
+pandas
+#streamlit
+plotly
