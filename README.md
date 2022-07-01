@@ -1,6 +1,6 @@
 # EmoBERT
 BERT based Model for predicting Emojis. This uses Huggingfaces pretrained RoBERTa model. It gets finetuned on a dataset containing twitter data with 7 different emojis as lables.
-![](https://i.imgur.com/AdFWXNO.png)
+![](https://i.imgur.com/X1p0fBT.png)
 Figure shows the architecture of EmoBERT.
 ## Requirments
 The code in this repository was tested and created with python version 3.7.  
